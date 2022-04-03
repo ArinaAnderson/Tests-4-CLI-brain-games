@@ -2,7 +2,7 @@ import readlineSync from 'readline-sync';
 
 const roundsCount = 3;
 
-export const setGame = (
+const setGame = (
   gameTask,
   setGameParams,
   inputIO = readlineSync.question,
