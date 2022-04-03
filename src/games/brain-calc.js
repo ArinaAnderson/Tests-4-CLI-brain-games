@@ -7,7 +7,7 @@ const numberMaxVal = 100;
 const numberMinVal = 0;
 const operators = ['+', '-', '*'];
 
-const calculateResult = (val1, val2, operator) => {
+export const calculateResult = (val1, val2, operator) => {
   switch (operator) {
     case '+':
       return val1 + val2;

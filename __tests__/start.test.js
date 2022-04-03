@@ -1,4 +1,4 @@
-import start from '../start.js';
+import start from '../src/start.js';
 
 test('to start testing', () => {
   expect(start(5)).toBe(10);
